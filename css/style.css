@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(-135deg, rgba(20, 20, 60, 1), rgba(10, 10, 30, 1));
+}
+/* Hero */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#hero .col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sobrenome{
+    color: rgba(0, 153, 255, 1);
+    text-shadow: 
+    0 0 5px rgba(0, 153, 255, 0.8),
+    0 0 10px rgba(0, 153, 255, 0.6),
+    0 0 20px rgba(0, 153, 255, 0.4);
+}
+.sobrenome:hover{
+    color: rgba(0, 200, 255, 1);
+}
+#hero h1{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+    
+}
+
+.buttons a{
+  background: rgba(0, 153, 255, 1);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: bold;
+  padding: 12px 30px;
+}
+
+.buttons a:hover{
+  color: black;  
+  background: rgba(0, 200, 255, 1);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 153, 255, 0.4)
+}
+
+#hero img {
+  filter: drop-shadow(0 0 15px rgba(0, 153, 255, 0.4))
+          drop-shadow(0 0 30px rgba(0, 153, 255, 0.1));
+}
+
+#hero img:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 15px rgba(0, 153, 255, 0.6))
+            drop-shadow(0 0 30px rgba(0, 153, 255, 0.3));
+}
+
+
+
+/* Meus Projetos */
+ 
+.projeto-card {
+  background: #0a0f2c;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.projeto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 170, 255, 0.3);
+}
+
+#projetos h2{
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.9) ;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #00aaff;
+}
+
+.card-text {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.tecnologias span {
+  background: #00aaff;
+  color: black;
+  padding: 3px 8px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
